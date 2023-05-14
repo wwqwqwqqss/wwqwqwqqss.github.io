@@ -1,0 +1,126 @@
+.gallery{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+.bigImg{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.bigImg img{width: 95%;}
+.smallImg{
+    display: flex;
+    margin-top: 10px;
+}
+.smallImg img {
+    width: 20%;
+    margin: 5px;
+    border-radius: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,152 @@
+body{
+  background-color: blue;
+  background-image: linear-gradient(red,orange, blue );
+}
+body.dark{
+  background-color:#333;
+}
+.dark .post{
+  background-color:black;
+  color: aquamarine;
+}
+.dark .themebutton img{
+  content: url(../images/37.12.26.235-SUNS-235.jpg);
+}
+.post{
+    width:50%;
+    background-color: rgb(83, 164, 40);
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden; 
+    margin-top: 10px;
+  }
+    img{
+    width: 100%;
+  
+  }
+  p{
+      color: brown;
+  }
+  .post h1{
+    font-size: 25px;
+  }
+  header{
+    background-color: lightseagreen;
+    position: sticky;
+    top: 0;
+    margin-bottom: 5px;
+    
+  }
+  li{
+    display: flex;
+    margin: 0px 5px;
+  }
+  footer{
+    background-color: black;
+    color: seagreen;
+  }
+  header ul,footer ul{
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 15px;
+  }
+  li img{
+    width: 36px;
+    margin:  0;
+    padding:  0;
+  }
+  li p{
+    margin:top 3%;
+    padding: 0;
+  }
+  a img{
+    width: 60px;
+    border-radius: 25%;
+ }
+  .button:hover{
+  background-color: darkred;
+  cursor:pointer;
+}
+ .active {
+  background-color: aqua;
+  font-weight: bold;
+  pointer-events: none;
+   
+ }
+  
+  
+  .button:hover p{
+   color: aqua;
+  
+    
+  }
+ 
+ @media (max-width: 757px){
+  .pic {
+    content:url(../images/BGiphone2.jpg);
+    
+  }
+  header ul {
+    margin:0;
+    padding:0;
+    font-size:small
+   }
+   .post{
+    width:100%;
+    border-radius:0;
+   }
+ }
+.themebutton{
+ display: flex;
+ background-image:url("../images/5fd1429088d6d38fbe20e7cc441801c7.jpg") ;
+ background-size: 50%;  
+} 
+.themebutton img{
+  width: 45px;
+} 
+.more{
+   padding:0 ; 
+   font-family: inherit;
+   font-size: 16px;
+   line-height:24px ;
+   color: inherit;
+   text-decoration-line:underline ;
+   background-color: transparent;
+   border: none;
+   
+} 
+.description{
+ margin-top: 0;
+ margin-bottom: 0;
+} 
+.short .description{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+} 
+.short .more{
+  display: inline-block;
+}
+.like{
+  float: right;
+  font-size:24px;
+  user-select: none;
+  display: flex;
+  margin-right:3%;
+}
+.plus{
+  margin-right: 3px;
+  color:aqua;
+  cursor: pointer; 
+}
+.plus img{
+  width: 40px;
+}
+.minus{
+  margin-left: 3px;
+  color: crimson;
+  cursor: pointer;
+}
+.minus img{
+  width: 40px;
+}
